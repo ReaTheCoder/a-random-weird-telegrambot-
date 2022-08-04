@@ -26,8 +26,8 @@ import re
 
 
 #receive the updates from Telegram and to deliver them to said dispatcher
-updater = Updater(token="5585415565:AAEJ0Q0dXfBu2USLVayR9C3p8mIVvTfXdYE" , use_context=True)
-bot= Bot(token="5585415565:AAEJ0Q0dXfBu2USLVayR9C3p8mIVvTfXdYE")
+updater = Updater(token="token" , use_context=True)
+bot= Bot(token="token")
 
 #interduce the dispatcher made by updater locally for quicker access
 dispatcher = updater.dispatcher
